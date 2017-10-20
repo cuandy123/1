@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 define('DOMAINTYPE','off');
 define('CH','exam_');
@@ -15,10 +15,10 @@ define('WP','http://'.$_SERVER['SERVER_NAME'].dirname($_SERVER['SCRIPT_NAME']));
 else
 define('WP','http://'.$_SERVER['SERVER_NAME'].'/');
 
-define('DB','666');//MYSQL数据库名
-define('DH','localhost');//MYSQL主机名，不用改
-define('DU','root');//MYSQL数据库用户名
-define('DP','');//MYSQL数据库用户密码
+define('DB','sampledb');//MYSQL数据库名
+define('DH','mysql');//MYSQL主机名，不用改
+define('DU','111');//MYSQL数据库用户名
+define('DP','111');//MYSQL数据库用户密码
 define('DTH','x2_');//系统表前缀，不用改
 
 define('WXAPPID','wx0f2a632abf082e60');
